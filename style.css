@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    background: #121212;
+    color: #fff;
+  }
+  
+  .sidebar {
+    width: 30%;
+    background: #1e1e1e;
+    border-right: 1px solid #333;
+    overflow-y: auto;
+    font-size: 70px;
+    padding-top: 60px;
+  }
+  
+  #ulContatos {
+    list-style: none;
+  }
+  
+  .contato {
+    padding: 40px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .contato:hover {
+    background: #2a2a2a;
+  }
+  
+  .textosContainers h1 {
+    font-size: 70px;
+    padding: 10px;
+  }
+  
+  .textosContainers p {
+    font-size: 50px;
+    color: #aaa;
+  }
+  
+  .chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #101010;
+  }
+  
+  .messages {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .containerInvisivelUsuario,
+  .containerInvisivel {
+  transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 40px;
+    font-size: 50px;
+  }
+  
+  .containerInvisivelUsuario {
+    align-self: flex-end;
+    background-color: #00e67630;
+    text-align: right;
+  }
+  
+  .containerInvisivel {
+    align-self: flex-start;
+    background-color: #81d4fa30;
+    text-align: left;
+  }
+  
+  .input-area {
+    padding: 20px;
+    border-top: 1px solid #333;
+    background: #1e1e1e;
+    display: flex;
+    height: 300px;
+    align-items: center;
+  }
+  
+  .input-area input {
+    flex: 1;
+    padding: 20px;
+    font-size: 70px;
+    border: none;
+    border-radius: 10px;
+    background: #333;
+    color: white;
+    height: 150px;
+  }
+  
+  .input-area button {
+    padding: 40px 60px;
+    margin-left: 20px;
+    font-size: 70px;
+    background: #00e676;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 150px;
+  }
+  
